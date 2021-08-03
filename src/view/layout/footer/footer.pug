@@ -1,13 +1,13 @@
 include ../../components/logo/logo
 include ../../helpers/mixins
 
-footer.footer(role='Info')
+footer.footer
   +logo('#', 'logo logo--green')
-  nav.footer__nav(role='navigation-links')
-    a.footer__link(href='#' title='About' aria-labelledby='navigation-link') About
-    a.footer__link(href='#' title='Services' aria-labelledby='navigation-link') Services
-    a.footer__link(href='#' title='Projects' aria-labelledby='navigation-link') Projects
-  nav.footer__social(role='social-link')
+  nav.footer__nav
+    a.footer__link(href='#' title='About') About
+    a.footer__link(href='#' title='Services') Services
+    a.footer__link(href='#' title='Projects') Projects
+  nav.footer__social
     a(href='#' title='Facebook')
       +icon('icon-facebook', 'facebook')
     a(href='#' title='Instagram')

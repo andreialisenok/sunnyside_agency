@@ -1,7 +1,7 @@
 .reviews {
   padding: 65px 15px 95px;
   @include respond-to(md) {
-    padding: 160px 15px;
+    padding: 165px 15px;
   }
   &__title {
     margin-bottom: 65px;

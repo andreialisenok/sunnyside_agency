@@ -7,14 +7,14 @@
     }
   }
 
-  &__item:first-child {
+  &__item:nth-child(2) {
     @include respond-to(xl) {
       .services__content {
         padding: 155px 110px 155px 165px;
       }
     }
   }
-  &__item:last-child {
+  &__item:nth-child(3) {
     @include respond-to(xl) {
       .services__content {
         padding: 155px 165px 155px 110px;

@@ -1,5 +1,6 @@
 .reviews {
   padding: 65px 15px 95px;
+  background: var(--dark-white);
   @include respond-to(md) {
     padding: 165px 15px;
   }

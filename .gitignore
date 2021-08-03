@@ -19,5 +19,3 @@ Thumbs.db
 __MACOSX/
 yarn.lock
 package-lock.json
-dist
-build

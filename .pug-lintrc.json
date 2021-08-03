@@ -14,7 +14,7 @@
   "disallowLegacyMixinCall": true,
   "disallowMultipleLineBreaks": true,
   "disallowSpaceAfterCodeOperator": null,
-  "disallowSpacesInsideAttributeBrackets": true,
+  "disallowSpacesInsideAttributeBrackets": null,
   "disallowSpecificAttributes": [
     {
       "a": "name"

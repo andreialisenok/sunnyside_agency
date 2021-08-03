@@ -4,24 +4,24 @@ include ../../components/burger/burger
 header.header
   .header__nav
     +logo('#', 'logo')
-    ul.menu-decktop
+    ul.menu-decktop(role='menu-decktop')
       li.menu-decktop__item
-        a.menu-decktop__link(href='#') About
+        a.menu-decktop__link(href='#' title='About') About
       li.menu-decktop__item
-        a.menu-decktop__link(href='#') Services
+        a.menu-decktop__link(href='#' title='Services') Services
       li.menu-decktop__item
-        a.menu-decktop__link(href='#') Projects
+        a.menu-decktop__link(href='#' title='Projects') Projects
       li.menu-decktop__item
-        a.menu-decktop__link(href='#') Contact
-    ul.menu-mobile
+        a.menu-decktop__link(href='#' title='Contact') Contact
+    ul.menu-mobile(role='menu-mobile')
       li.menu-mobile__item
-        a.menu-mobile__link(href='#') About
+        a.menu-mobile__link(href='#' title='About') About
       li.menu-mobile__item
-        a.menu-mobile__link(href='#') Services
+        a.menu-mobile__link(href='#' title='Services') Services
       li.menu-mobile__item
-        a.menu-mobile__link(href='#') Projects
+        a.menu-mobile__link(href='#' title='Projects') Projects
       li.menu-mobile__item
-        a.menu-mobile__link(href='#') Contact
+        a.menu-mobile__link(href='#' title='Contact') Contact
     +burger
   h1.header__title we are creatives
   .header__arrow-down

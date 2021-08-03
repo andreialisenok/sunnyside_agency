@@ -1,0 +1,82 @@
+.reviews {
+  padding: 65px 15px 95px;
+  @include respond-to(md) {
+    padding: 160px 15px;
+  }
+  &__title {
+    margin-bottom: 65px;
+    color: var(--light-gray);
+    font-weight: 900;
+    font-size: 1.6rem;
+    font-family: 'Fraunces_9pt_Soft-Bold', serif;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    @include respond-to(md) {
+      margin-bottom: 80px;
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    @include respond-to(md) {
+      flex-direction: row;
+      align-items: stretch;
+      max-width: 1110px;
+    }
+  }
+  &__item {
+    width: 100%;
+    max-width: 330px;
+    @include respond-to(md) {
+      display: flex;
+      flex-direction: column;
+      max-width: 350px;
+    }
+  }
+  &__item:not(:first-child) {
+    margin-top: 65px;
+    @include respond-to(md) {
+      margin-top: 0;
+      margin-left: 30px;
+    }
+  }
+  &__photo {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+    }
+  }
+  &__text {
+    margin: 35px 0;
+    color: var(--dark-gray);
+    line-height: 3rem;
+    text-align: center;
+    @include respond-to(md) {
+      flex: 1 1 auto;
+      margin: 60px 0 70px;
+    }
+  }
+  &__name {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-family: 'Fraunces_9pt_Soft-Bold', serif;
+    text-align: center;
+  }
+  &__position {
+    display: block;
+    color: var(--light-gray);
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}

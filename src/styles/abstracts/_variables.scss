@@ -1,0 +1,43 @@
+// Color
+:root {
+  --white: #fff;
+  --black: #000;
+  --very-dark-blue: #052c3b;
+  --dark-blue: #24303e;
+  --blue: #3ebfff;
+  --light-blue: #19536c;
+  --very-light-blue: #77cdf5;
+  --yellow: #fbd600;
+  --light-yellow: #fad400;
+  --dark-gray: #5b636d;
+  --gray: #808397;
+  --light-gray: #a7aaad;
+  --very-dark-green: #24554a;
+  --dark-green: #2c7566;
+  --green: #458d7e;
+  --light-green: #90d4c6;
+  --light-red: #fe7766;
+}
+// Fonts
+$font-family: 'Barlow-SemiBold', sans-serif;
+// Sizes
+$text-size: 1.8rem;
+
+// Line-Height
+$line-height: 1.3;
+
+// Font-weight
+$font-weight: 600;
+
+// Container
+$max-width: 1380px;
+$min-width: 320px;
+
+// Media
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px,
+) !default;

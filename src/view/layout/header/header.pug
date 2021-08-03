@@ -1,0 +1,27 @@
+include ../../components/logo/logo
+include ../../components/burger/burger
+
+header.header
+  .header__nav
+    +logo('#', 'logo')
+    ul.menu-decktop
+      li.menu-decktop__item
+        a.menu-decktop__link(href='#') About
+      li.menu-decktop__item
+        a.menu-decktop__link(href='#') Services
+      li.menu-decktop__item
+        a.menu-decktop__link(href='#') Projects
+      li.menu-decktop__item
+        a.menu-decktop__link(href='#') Contact
+    ul.menu-mobile
+      li.menu-mobile__item
+        a.menu-mobile__link(href='#') About
+      li.menu-mobile__item
+        a.menu-mobile__link(href='#') Services
+      li.menu-mobile__item
+        a.menu-mobile__link(href='#') Projects
+      li.menu-mobile__item
+        a.menu-mobile__link(href='#') Contact
+    +burger
+  h1.header__title we are creatives
+  .header__arrow-down

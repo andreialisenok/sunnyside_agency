@@ -1,0 +1,9 @@
+mixin icon(icon, classNameA)
+  svg(class=`${classNameA} ${classNameA}--${icon}`)
+    use(xlink:href="./img/sprites/svg/sprite.svg#" + icon)
+
+mixin menu(classNameA, classNameB, items)
+  ul(class=`${(classNameB ? classNameA+" "+classNameB:classNameA)}`)
+    each item in items
+      li(class=`${classNameA}__item`)
+        a(href=item.url, class=`${classNameA}__link`)= item.text

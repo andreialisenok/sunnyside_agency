@@ -1,0 +1,12 @@
+extends templates/default
+block variables
+  - const title = "Sunnyside Agency";
+block content
+  include layout/header/header
+  include layout/services/services
+  include layout/projects/projects
+  include layout/reviews/reviews
+  include layout/gallery/gallery
+  include layout/footer/footer
+block scripts
+  script(src='js/script.js')

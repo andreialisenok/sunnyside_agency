@@ -1,0 +1,42 @@
+.burger {
+  position: relative;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+  @include respond-to(md) {
+    display: none;
+  }
+  & span {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--white);
+    transition: opacity 0.5s ease-in-out;
+    &::after {
+      position: absolute;
+      top: 8px;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: var(--white);
+      content: '';
+    }
+    &::before {
+      position: absolute;
+      top: -8px;
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: var(--white);
+      content: '';
+    }
+  }
+  &.active {
+    & span {
+      opacity: 0.5;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.logo {
+  display: flex;
+  align-items: center;
+  width: 124px;
+  transition: all 0.5s ease-in-out;
+  fill: var(--white);
+  &:hover {
+    fill: var(--dark-blue);
+  }
+  @include respond-to(md) {
+    width: 170px;
+  }
+}
+.logo--green {
+  width: 170px;
+  transition: all 0.5s ease-in-out;
+  fill: var(--dark-green);
+  &:hover {
+    fill: var(--white);
+  }
+}

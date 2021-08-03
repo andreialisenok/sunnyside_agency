@@ -1,0 +1,18 @@
+include ../../components/logo/logo
+include ../../helpers/mixins
+
+footer.footer
+  +logo('#', 'logo logo--green')
+  nav.footer__nav
+    a.footer__link(href='#') About
+    a.footer__link(href='#') Services
+    a.footer__link(href='#') Projects
+  nav.footer__social
+    a(href='#')
+      +icon('icon-facebook', 'facebook')
+    a(href='#')
+      +icon('icon-instagram', 'instagram')
+    a(href='#')
+      +icon('icon-twitter', 'twitter')
+    a(href='#')
+      +icon('icon-pinterest', 'pinterest')

@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/andreialisenok/sunnyside_agency/settings/pages)
+- [Solution URL](https://github.com/andreialisenok/sunnyside_agency)
 - [Live Site URL](https://sunnyside-agency-seven.vercel.app/)
 
 ## My process
